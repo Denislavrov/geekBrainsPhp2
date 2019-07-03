@@ -7,7 +7,6 @@
  */
 
 class Product {
-
     public $name;
     public $qty;
     public $price;
@@ -25,7 +24,6 @@ class Product {
 }
 
 class Jeans extends Product {
-
     function view()
     {
         echo "<h1>$this->name</h1><div>$this->price</div>";
